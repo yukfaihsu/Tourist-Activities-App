@@ -7,18 +7,33 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		20A074E327FA023B00D810D3 /* WebViewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20A074E227FA023B00D810D3 /* WebViewViewController.swift */; };
+		20A074E827FA29C600D810D3 /* Purchase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20A074E727FA29C600D810D3 /* Purchase.swift */; };
+		20A074EC27FA602900D810D3 /* TicketTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20A074EB27FA602900D810D3 /* TicketTableViewCell.swift */; };
 		D480794027F4C40C00CED393 /* ActivitiesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D480793F27F4C40C00CED393 /* ActivitiesViewController.swift */; };
+		D495F9AE27F6B71000B0AD1C /* ActivityCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D495F9AD27F6B71000B0AD1C /* ActivityCollectionViewCell.swift */; };
+		D495F9B027F6B97D00B0AD1C /* Activity.swift in Sources */ = {isa = PBXBuildFile; fileRef = D495F9AF27F6B97D00B0AD1C /* Activity.swift */; };
+		D495F9B227F783A100B0AD1C /* ActivityDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D495F9B127F783A100B0AD1C /* ActivityDetailsViewController.swift */; };
+		D495F9B427F783AD00B0AD1C /* TicketsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D495F9B327F783AD00B0AD1C /* TicketsViewController.swift */; };
 		D4CED61927F38F0500F1E521 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4CED61827F38F0500F1E521 /* AppDelegate.swift */; };
 		D4CED61B27F38F0500F1E521 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4CED61A27F38F0500F1E521 /* SceneDelegate.swift */; };
 		D4CED61D27F38F0500F1E521 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4CED61C27F38F0500F1E521 /* ViewController.swift */; };
 		D4CED62027F38F0500F1E521 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D4CED61E27F38F0500F1E521 /* Main.storyboard */; };
 		D4CED62227F38F0600F1E521 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D4CED62127F38F0600F1E521 /* Assets.xcassets */; };
 		D4CED62527F38F0600F1E521 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D4CED62327F38F0600F1E521 /* LaunchScreen.storyboard */; };
+		D4F1006727F8BB6D0057A399 /* Database.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4F1006627F8BB6D0057A399 /* Database.swift */; };
 		D4F6AE8727F6260000B4040A /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4F6AE8627F6260000B4040A /* User.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		20A074E227FA023B00D810D3 /* WebViewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebViewViewController.swift; sourceTree = "<group>"; };
+		20A074E727FA29C600D810D3 /* Purchase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Purchase.swift; sourceTree = "<group>"; };
+		20A074EB27FA602900D810D3 /* TicketTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TicketTableViewCell.swift; sourceTree = "<group>"; };
 		D480793F27F4C40C00CED393 /* ActivitiesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivitiesViewController.swift; sourceTree = "<group>"; };
+		D495F9AD27F6B71000B0AD1C /* ActivityCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityCollectionViewCell.swift; sourceTree = "<group>"; };
+		D495F9AF27F6B97D00B0AD1C /* Activity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Activity.swift; sourceTree = "<group>"; };
+		D495F9B127F783A100B0AD1C /* ActivityDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityDetailsViewController.swift; sourceTree = "<group>"; };
+		D495F9B327F783AD00B0AD1C /* TicketsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TicketsViewController.swift; sourceTree = "<group>"; };
 		D4CED61527F38F0500F1E521 /* Project_Group_12.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Project_Group_12.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D4CED61827F38F0500F1E521 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D4CED61A27F38F0500F1E521 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -27,6 +42,7 @@
 		D4CED62127F38F0600F1E521 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D4CED62427F38F0600F1E521 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D4CED62627F38F0600F1E521 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D4F1006627F8BB6D0057A399 /* Database.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Database.swift; sourceTree = "<group>"; };
 		D4F6AE8627F6260000B4040A /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -41,6 +57,33 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		20A074E427FA293400D810D3 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				D4F6AE8627F6260000B4040A /* User.swift */,
+				D495F9AF27F6B97D00B0AD1C /* Activity.swift */,
+				20A074E727FA29C600D810D3 /* Purchase.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		20A074E527FA294D00D810D3 /* Database */ = {
+			isa = PBXGroup;
+			children = (
+				D4F1006627F8BB6D0057A399 /* Database.swift */,
+			);
+			path = Database;
+			sourceTree = "<group>";
+		};
+		20A074E627FA296800D810D3 /* View Cell */ = {
+			isa = PBXGroup;
+			children = (
+				D495F9AD27F6B71000B0AD1C /* ActivityCollectionViewCell.swift */,
+				20A074EB27FA602900D810D3 /* TicketTableViewCell.swift */,
+			);
+			path = "View Cell";
+			sourceTree = "<group>";
+		};
 		D4CED60C27F38F0500F1E521 = {
 			isa = PBXGroup;
 			children = (
@@ -60,6 +103,9 @@
 		D4CED61727F38F0500F1E521 /* Project_Group_12 */ = {
 			isa = PBXGroup;
 			children = (
+				20A074E527FA294D00D810D3 /* Database */,
+				20A074E427FA293400D810D3 /* Models */,
+				20A074E627FA296800D810D3 /* View Cell */,
 				D4CED62C27F3903700F1E521 /* View Controllers */,
 				D4CED61827F38F0500F1E521 /* AppDelegate.swift */,
 				D4CED61A27F38F0500F1E521 /* SceneDelegate.swift */,
@@ -67,7 +113,6 @@
 				D4CED62127F38F0600F1E521 /* Assets.xcassets */,
 				D4CED62327F38F0600F1E521 /* LaunchScreen.storyboard */,
 				D4CED62627F38F0600F1E521 /* Info.plist */,
-				D4F6AE8627F6260000B4040A /* User.swift */,
 			);
 			path = Project_Group_12;
 			sourceTree = "<group>";
@@ -77,6 +122,9 @@
 			children = (
 				D4CED61C27F38F0500F1E521 /* ViewController.swift */,
 				D480793F27F4C40C00CED393 /* ActivitiesViewController.swift */,
+				D495F9B127F783A100B0AD1C /* ActivityDetailsViewController.swift */,
+				20A074E227FA023B00D810D3 /* WebViewViewController.swift */,
+				D495F9B327F783AD00B0AD1C /* TicketsViewController.swift */,
 			);
 			path = "View Controllers";
 			sourceTree = "<group>";
@@ -152,10 +200,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D495F9B227F783A100B0AD1C /* ActivityDetailsViewController.swift in Sources */,
+				D495F9B427F783AD00B0AD1C /* TicketsViewController.swift in Sources */,
 				D4CED61D27F38F0500F1E521 /* ViewController.swift in Sources */,
 				D480794027F4C40C00CED393 /* ActivitiesViewController.swift in Sources */,
+				20A074E327FA023B00D810D3 /* WebViewViewController.swift in Sources */,
+				D495F9B027F6B97D00B0AD1C /* Activity.swift in Sources */,
+				D495F9AE27F6B71000B0AD1C /* ActivityCollectionViewCell.swift in Sources */,
 				D4CED61927F38F0500F1E521 /* AppDelegate.swift in Sources */,
+				20A074EC27FA602900D810D3 /* TicketTableViewCell.swift in Sources */,
+				20A074E827FA29C600D810D3 /* Purchase.swift in Sources */,
 				D4F6AE8727F6260000B4040A /* User.swift in Sources */,
+				D4F1006727F8BB6D0057A399 /* Database.swift in Sources */,
 				D4CED61B27F38F0500F1E521 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -232,7 +288,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -286,7 +342,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
